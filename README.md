@@ -102,12 +102,7 @@ DEFAULT_COUNTRY=TR
 climamap/
 │
 ├── app.py                 # Main Streamlit application
-├── components/
-│   ├── weather_api.py     # Weather data fetching
-│   ├── map_component.py   # Interactive map functionality
-│   └── ui_components.py   # UI helper functions
-├── assets/
-│   └── images/           # Weather icons and images
+├── util.py
 ├── requirements.txt      # Python dependencies
 ├── .env.example         # Environment variables template
 └── README.md           # Project documentation
@@ -168,9 +163,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Your Name** - your.email@example.com
 
-Project Link: [https://github.com/yourusername/climamap](https://github.com/yourusername/climamap)
+Project Link: [https://github.com/WulfaW/ClimaMap](https://github.com/WulfaW/ClimaMap)
 
 ---
 
